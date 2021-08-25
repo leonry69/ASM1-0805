@@ -10,7 +10,7 @@ var url = 'mongodb+srv://asm2:huy0966902734@cluster0.puba8.mongodb.net/test';
 var MongoClient = require('mongodb').MongoClient;
 
 app.get('/home', (req,res)=>{
-    res.render('home')
+    res.render('/home')
 })
 app.get('/about', (req,res)=>{
     res.render('about',{
